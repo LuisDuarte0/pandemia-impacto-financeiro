@@ -4,16 +4,6 @@ Este projeto, desenvolvido inteiramente em Python, tem como objetivo analisar os
 
 | :label: Tecnologias   | Python, Jupyter Notebook, Power BI  |
 
-![Resumo visual do projeto](https://github.com/BrenoMorim/mercado-financeiro-na-pandemia/blob/main/imagem-do-projeto.png?raw=true#vitrinedev)
-
-## Visão geral dos Dashboards
-
-![Indicadores de ações da Magalu e Petrobras](./paginas-dashboard/Bolsa.png)
-
-![Variação do IPCA](./paginas-dashboard/IPCA.png)
-
-![Relação entre o dólar e o petróleo](./paginas-dashboard/Dolar_Petroleo.png)
-
 ## Principais análises realizadas
 
 O projeto começa avaliando a inflação (IPCA) durante o período pandêmico. Em seguida, analisa o desempenho das ações de empresas como Magalu e Petrobras, culminando na construção de um modelo de regressão para entender os comportamentos dessas ações. Para isso, utilizou dados relacionados ao preço do barril de petróleo, taxa do dólar e a pontuação do Ibovespa.
@@ -50,6 +40,5 @@ O preço do petróleo caiu drasticamente em março de 2020 devido à redução n
 ### Correlação entre Petróleo e Petrobras
 ![Correlação entre petróleo e ações da Petrobras](./graficos/correlacao.png)
 
-A relação entre o preço do petróleo e as ações da Petrobras não apresentou uma correlação linear forte, o que é esperado devido à complexidade do mercado financeiro. Variáveis externas e decisões humanas influenciam os resultados, dificultando previsões precisas.
-
+A análise revela que a relação entre o preço do petróleo e as ações da Petrobras não apresenta uma correlação significativa ou um padrão linear claro. Esse resultado era esperado, considerando a limitação do conjunto de dados e a complexidade inerente ao mercado financeiro. Mesmo com um volume maior de dados e variáveis adicionais, prever com exatidão os movimentos do mercado é uma tarefa desafiadora, dado que ele é influenciado por fatores externos e comportamentos humanos, frequentemente imprevisíveis e não lineares
 ---
