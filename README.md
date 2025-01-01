@@ -1,6 +1,55 @@
-## **Analisando o mercado fincanceiro durante a pandemia**
+# Explorando o mercado financeiro brasileiro durante a pandemia
 
-Este trabalho, elaborado exclusivamente em Python, examina os efeitos da pandemia sobre o mercado financeiro no Brasil, com uma análise das razões por trás das variações observadas nos indicadores. A base de dados cobre o intervalo de 2019 a 2021.
+Este projeto, desenvolvido inteiramente em Python, tem como objetivo analisar os impactos da pandemia no mercado financeiro brasileiro, investigando as causas por trás das oscilações nas métricas avaliadas. Os dados utilizados abrangem o período de 2019 a 2021.
 
-## **Questões analisadas**
-A primeira métrica analisada foi a inflação e seu comportamento durante a pandemia. Em seguida foi feita a análise das ações de duas empresas: Magalu e Petrobras. Com a finalidade de construir um modelo de regressão para tentar prever o comportamento das ações da Petrobras, coletei dados sobre a cotação de um barril de petróleo, a cotação do dólar e até mesmo a pontuação da IBOVESPA (bolsa de valores brasileira).
+| :label: Tecnologias   | Python, Jupyter Notebook, Power BI  |
+
+![Resumo visual do projeto](https://github.com/BrenoMorim/mercado-financeiro-na-pandemia/blob/main/imagem-do-projeto.png?raw=true#vitrinedev)
+
+## Visão geral dos Dashboards
+
+![Indicadores de ações da Magalu e Petrobras](./paginas-dashboard/Bolsa.png)
+
+![Variação do IPCA](./paginas-dashboard/IPCA.png)
+
+![Relação entre o dólar e o petróleo](./paginas-dashboard/Dolar_Petroleo.png)
+
+## Principais análises realizadas
+
+O projeto começa avaliando a inflação (IPCA) durante o período pandêmico. Em seguida, analisa o desempenho das ações de empresas como Magalu e Petrobras, culminando na construção de um modelo de regressão para entender os comportamentos dessas ações. Para isso, utilizou dados relacionados ao preço do barril de petróleo, taxa do dólar e a pontuação do Ibovespa.
+
+### [Fonte dos dados](http://www.infomoney.com.br)
+
+## Gráficos e Análises
+
+### Inflação (IPCA)
+![Gráfico do IPCA](./graficos/ipca.png)
+
+A inflação apresentou queda no início da pandemia devido à redução do consumo e à incerteza econômica. No entanto, antes dessa queda, houve um pico devido à corrida por produtos essenciais. Mais tarde, o auxílio emergencial e a flexibilização das restrições impulsionaram o consumo, resultando em um aumento na inflação.
+
+### Magalu
+![Gráfico das ações da Magalu](./graficos/mglu.png)
+
+As ações da Magalu cresceram significativamente após uma queda inicial. Essa recuperação foi impulsionada pela rápida adaptação ao e-commerce e pela redução da concorrência durante o período. No entanto, a partir de 2022, fatores como a alta da taxa de juros (Selic) e a concorrência de grandes players internacionais prejudicaram a empresa.
+
+### Petrobras
+![Gráfico das ações da Petrobras](./graficos/petr.png)
+
+A Petrobras enfrentou uma desvalorização de mais de 50% no início da pandemia. Apesar de algumas instabilidades políticas e mudanças administrativas em 2020 e 2021, a empresa conseguiu manter resultados consistentes no mercado.
+
+### Ibovespa
+![Gráfico da Ibovespa](./graficos/ibovespa.png)
+
+A bolsa brasileira seguiu um padrão de queda acentuada no início da pandemia, seguida por uma recuperação gradual. Em 2021, conseguiu superar a pontuação registrada antes da pandemia.
+
+### Barril de Petróleo
+![Gráfico do preço do petróleo](./graficos/barril-petroleo.png)
+
+O preço do petróleo caiu drasticamente em março de 2020 devido à redução na demanda. A partir de 2021, a combinação de estabilização na demanda e desvalorização do Real frente ao dólar levou a um aumento nos preços.
+
+### Correlação entre Petróleo e Petrobras
+![Correlação entre petróleo e ações da Petrobras](./graficos/correlacao.png)
+
+A relação entre o preço do petróleo e as ações da Petrobras não apresentou uma correlação linear forte, o que é esperado devido à complexidade do mercado financeiro. Variáveis externas e decisões humanas influenciam os resultados, dificultando previsões precisas.
+
+---
